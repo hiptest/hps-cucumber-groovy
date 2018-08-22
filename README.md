@@ -22,7 +22,7 @@ To update the tests:
 
     "hiptest-publisher -c cucumber-groovy.conf --only=features,step_definitions"
 
-The tests are generated in [``src/test/groovy/com/example/coffeemachine``](https://github.com/hiptest/hps-cucumber-groovy/tree/master/src/test/groovy/com/example/coffeemachine)
+The tests are generated in [``src/test/groovy/com/example/coffeeMachine``](https://github.com/hiptest/hps-cucumber-groovy/tree/master/src/test/groovy/com/example/coffeeMachine)
 
 Run tests
 ---------
@@ -32,6 +32,6 @@ To build the project and run the tests, use the following command:
 
     mvn test
 
-The SUT implementation can be seen in [``src/main/groovy/com/example/coffeemachine/CoffeeMachine.groovy``](https://github.com/hiptest/hps-cucumber-groovy/blob/master/src/main/groovy/com/example/coffeemachine/CoffeeMachine.groovy)
+The SUT implementation can be seen in [``src/main/groovy/com/example/coffeemachine/CoffeeMachine.groovy``](https://github.com/hiptest/hps-cucumber-groovy/blob/master/src/main/groovy/com/example/coffeeMachine/CoffeeMachine.groovy)
 
 The test report is generated in ```target/cuke-results.json```
