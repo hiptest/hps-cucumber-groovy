@@ -1,5 +1,7 @@
 # hps-cucumber-groovy
 
+[![Build Status](https://travis-ci.org/hiptest/hps-cucumber-groovy.svg?branch=master)](https://travis-ci.org/hiptest/hps-cucumber-groovy)
+
 Hiptest publisher samples with Cucumber/Groovy
 
 In this repository you'll find tests generated in Cucumber/Groovy format from [Hiptest](https://hiptest.com), using [Hiptest publisher](https://github.com/hiptest/hiptest-publisher).
