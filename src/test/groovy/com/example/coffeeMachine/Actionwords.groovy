@@ -10,27 +10,27 @@ class Actionwords {
     sut = CoffeeMachine.newInstance()
   } 
 
-  def iStartTheCoffeeMachineUsingLanguageLang(lang) {  // TODO: Implement action: "Start the coffee machine using language ${lang}"
+  def iStartTheCoffeeMachineUsingLanguageLang(lang) {
     sut.start(lang)
   }
 
-  def iShutdownTheCoffeeMachine() {  // TODO: Implement action: "Shutdown coffee machine"
+  def iShutdownTheCoffeeMachine() {
     sut.stop()
   }
 
-  def messageMessageShouldBeDisplayed(message) {  // TODO: Implement result: "Displayed message is \"${message}\""
+  def messageMessageShouldBeDisplayed(message) {
     return sut.message() == message
   }
 
-  def coffeeShouldBeServed() {  // TODO: Implement result: "Coffee is served :)"
+  def coffeeShouldBeServed() {
     return sut.coffeeServed
   }
 
-  def coffeeShouldNotBeServed() {  // TODO: Implement result: "No coffee is served :("
+  def coffeeShouldNotBeServed() {
     return !sut.coffeeServed
   }
 
-  def iTakeACoffee() {  // TODO: Implement action: "Take a coffee"
+  def iTakeACoffee() {
     sut.takeCoffee()
     if (handleGrounds) {
       iEmptyTheCoffeeGrounds()
@@ -45,15 +45,15 @@ class Actionwords {
     }
   }
 
-  def iEmptyTheCoffeeGrounds() {  // TODO: Implement action: "Empty coffee grounds"
+  def iEmptyTheCoffeeGrounds() {
     sut.emptyGrounds()
   }
 
-  def iFillTheBeansTank() {  // TODO: Implement action: "Fill beans"
+  def iFillTheBeansTank() {
     sut.fillBeans()
   }
 
-  def iFillTheWaterTank() {  // TODO: Implement action: "Fill water tank"
+  def iFillTheWaterTank() {
     sut.fillTank()
   }
 
